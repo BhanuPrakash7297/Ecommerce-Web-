@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-// import colors from 'colors';
+
 
 
 const connectDB = async () => {
@@ -15,5 +15,6 @@ const connectDB = async () => {
         console.log("Error related to connections here");
     }
 }
+
 
 export default connectDB;
